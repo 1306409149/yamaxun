@@ -1,0 +1,399 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 1.41rem;
+	background: #fdf8fc;
+	border-bottom: 0.03rem solid #dadada;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header-t{
+	width: 100%;
+	height: 0.64rem;
+	background: white;
+	float: left;
+}
+.header-b{
+	width: 100%;
+	height: 0.77rem;
+	background: #f8f3f7;
+	float: left;
+}
+.logo{
+	width: 195px;
+	height: 85px;
+	/* background: green; */
+	position: absolute;
+	margin-top: -27px;
+	/* margin-left: 45px; */
+}
+.logo a i{
+	font-size: 186px;
+	color: black;
+	/* font-weight: bold; */
+}
+.logo2{
+	width: 209px;
+	height: 66px;
+	position: absolute;
+	/* margin-left: 708px; */
+	margin-top: 36px;
+	right: 36px;
+	font-size: 36px;
+	/* position: relative; */
+}
+.logo2 a{
+	display: block;
+	font-size: 36px;
+	float: left;
+	margin-top: 7px;
+	color: #005acd;
+	/* position: absolute; */
+	/* left: 36px; */ 
+}
+.logo2 a i{
+	font-size: 66px;
+	/* right: 36px; */
+}
+.menu{
+	width: 100%;
+	height: 1.41rem;
+	/* background: yellow; */
+	border-bottom: 3px solid #ede8ec;
+	overflow: hidden;
+	margin-top: 1.41rem;
+}
+.box1{
+	width:172px;
+	height: 74px;
+	/* background: green; */
+	margin-left: 44px;
+	margin-bottom: 38px;
+	float: left;
+}
+.box1 a:first-line{
+	font-size: 31px;
+	color: #696768;
+	font-weight: normal;
+	/* margin-bottom: 6px; */
+}
+.box1 a{
+	font-size: 43px;
+	color: #696768;
+	font-weight: bold;
+}
+.box2{
+	width: 195px;
+	height: 39px;
+	/* background: green; */
+	margin-left: 49px;
+	margin-top: 65px;
+	float: left
+}
+.box2 a{
+	font-size: 39px;
+	font-weight: bold;
+	color: #696768;
+}
+.box3{
+	margin-left: 538px;
+	margin-top: 65px;
+}
+.box3 a{
+	font-size: 39px;
+	font-weight: bold;
+	color: #696768;
+}
+.sousuo{
+	width: 100%;
+	height: 1.65rem;
+	background: blue;
+	border-bottom: 3px solid #eae8f5;
+	overflow: hidden;
+}
+input{
+	width: 734px;
+	height: 99px;
+	font-size: 42px;
+	padding-left: 32px;
+	border: 10px solid #d6d4d7;
+	border-radius: 24px;
+}
+.shuru{
+	margin-left: 39px;
+	margin-top: 33px;
+	float: left;
+}
+.dianji{
+	width: 99px;
+	height: 99px;
+	background: #5f646a;
+	float: right;
+	margin-right: 0.36rem;
+	margin-top: 34px;
+	border: 10px solid black;
+	border-radius: 24px;
+}
+.dianji a{
+	display: block;
+	margin-top: 18px;
+	margin-left: 14px;
+}
+.dianji i{
+	font-size: 63px;
+	color: white;
+	text-align: center;
+}
+.lunbo{
+	width: 100%;
+	height: 4.32rem;
+	background: black;
+	border-bottom: 2px solid #d3d5d0;
+	border-radius: 24px;
+}
+.lunbo a img{
+	display: block;
+	width: 100%;
+	height: 432px;
+}
+.daohang{
+	width: 100%;
+	height: 2.77rem;
+	/* background: #d3d2e0; */
+	display: flex;
+	justify-content: space-between;
+}
+.daohang a{
+	display: block;
+	margin: 30px;
+	font-size: 27px;
+	text-align: center;
+}
+.tuijian{
+	width: 100%;
+	height: 1180px;
+	background: #d5d3d6;
+}
+.xuexi{
+	width: 100%;
+	height: 81px;
+	background: #d5d3d6;
+}
+.xuexi a{
+	display: block;
+	width: 100%;
+	height: 224px;
+}
+.xuexi a img{
+	margin-top: 8px;
+	width: 100%;
+	height: auto;
+}
+.xuexi2 a img{
+	width: 100%;
+	height: 284px;
+	margin-top: 88px;
+}
+.tushu{
+	width: 100%;
+	height: 702px;
+	background: #d5d3d6;
+}
+.tushu1{
+	width: 100%;
+	height: 234px;
+}
+.tushu1 a img{
+	width: 100%;
+	height: 234px;
+}
+.tushu1 a:nth-last-child(2){
+	margin-top: 10px;
+}
+.zhendian{
+	width: 100%;
+	height: 1470px;
+	/* background: #d5d3d6; */
+	/* border-top: 23px solid #d5d3d6; */
+	/* float: left; */
+}
+.zd1{
+	width: 100%;
+	height: 135px;
+	background: #ffffff;
+	/* float: left; */
+}
+.shangxin{
+	width: 497px;
+	height: 55px;
+	font-size: 55px;
+	font-weight: bolder;
+}
+.zd2{
+	width: 100%;
+	height: 300px;
+	/* background: green; */
+	border-bottom: 30px solid #ffffff;
+}
+.yifu{
+	width: 80%;
+	height: 3rem;
+	/* background: red; */
+	margin: 0 auto;
+}
+.jiage{
+	width: 50%;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.shiwu{
+	width: 50%;
+	height: 100%;
+	/* background: yellow; */
+	float: right;
+}
+.jiage h1{
+	font-size: 40px;
+	flex-wrap: nowrap;
+}
+.jiage h3{
+	font-size: 35px;
+	color: red;
+}
+.jiage h4{
+	font-size: 30px;
+}
+.shiwu img{
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+.miaosha{
+	width: 100%;
+	height: 711px;
+	/* background: red; */
+	border-bottom: 21px solid #d4d4d2;
+}
+.ms1{
+	width: 100%;
+	height: 132px;
+	/* background: green; */
+	border-bottom: 3px solid white;
+	overflow: hidden;
+	/* float: left; */
+}
+.ms1-l{
+	width: 235px;
+	height: 66px;
+	/* background: yellow; */
+	font-size: 66px;
+	margin-top: 36px;
+	margin-left: 34px;
+	float: left;
+}
+.ms1-r{
+	width: 152px;
+	height: 37px;
+	/* background: yellow; */
+	float: right;
+	margin-top: 45px;
+	margin-right: 47px;
+}
+.ms1-r a{
+	font-size: 37px;
+	color: #006cea;
+}
+.ms2{
+	width: 100%;
+	height: 576px;
+	/* background: green; */
+}
+.ms2-1{
+	width: 33%;
+	height: 100%;
+	/* background: red; */
+	overflow: hidden;
+	/* margin-left: 1px; */
+	float: left;
+}
+.ms2-tu{
+	width: 284px;
+	height: 274px;
+	margin: 0 auto;
+	margin-top: 46px;
+}
+.ms2-tu img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.ms2-1 a h3{
+	display: block;
+	margin-top: 47px;
+	font-size: 30px;
+	color: red;
+}
+.ms2-1 a h4{
+	font-size: 24px;
+}
+.ms2-1 a h5{
+	font-size: 30px;
+}
+.ms2-1 a{
+	display: block;
+	float: left;
+	margin-top: 47px;
+	margin: 0 auto;
+}
+.nvwan{
+	width: 100%;
+	height: 870px;
+	/* background: red; */
+	border-bottom: 21px solid #d4d4d2;
+}
+.nvwan1{
+	width: 100%;
+	height: 450px;
+	background: red;
+}
+.nvwan1 a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.nvwan2{
+	width: 100%;
+	height: 420px;
+	background: green;
+	overflow: hidden;
+}
+.nvwan2_xie{
+	width: 80%;
+	height: 300px;
+	background: red;
+	margin-left: 10%;
+	margin-top: 39px;
+	display: flex;
+	justify-content: space-between;
+}
+.nvwan-tu{
+	width: 30%;
+	height: 100%;
+	background: blue;
+	float: left;
+}
+.nvwan-tu a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
